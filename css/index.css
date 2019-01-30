@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+header .logo {
+    font-family: 'Lobster', monospace;
+    font-size: 2rem;
+    text-align: center;
+    margin: 24px auto;
+    font-weight: bold; 
+}
+
+
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+
+header .menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
