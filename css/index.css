@@ -19,6 +19,8 @@ header .menu {
     display: flex;
     justify-content: space-around;
     padding: 0;
+    margin:auto;
+    background-color: #f2af63;
 }
 
 header .menu  {
@@ -40,9 +42,6 @@ header .logo{
 }
 
 @media (max-width: 620px) {
-    /*header nav {*/
-    /*    display: flex;*/
-    /*}*/
     
     header .logo {
         margin: 24px 10px;
