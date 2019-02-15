@@ -57,6 +57,35 @@ h3 {
     font-size: 1.5rem;
 }
 
+input[type=text] {
+    width: 100%;
+    pedding: 15px;
+    border: 3px solid #f2af63; 
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom:6px;
+    resize: vertical;
+}
+
+input[type=email] {
+     width: 100%;
+    pedding: 15px;
+    border: 3px solid #f2af63; 
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom:6px;
+    resize: vertical;
+}
+
+textarea[id=msg] {
+     width: 100%;
+    pedding: 15px;
+    border: 3px solid #f2af63; 
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom:6px;
+    resize: vertical;
+}
 
 @media (max-width: 620px) {
     
