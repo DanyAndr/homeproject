@@ -1,14 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+
+:root{
+    font-family: 'Open+Slans', monospace;
+    font-size: 1rem;
+}
 
 header .logo {
     font-family: 'Lobster', monospace;
     font-size: 2rem;
     text-align: center;
     margin: 24px auto;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
-
+header .background {
+    padding: 5px;
+    background-color: #f2af63
+    
+}
 
 body {
     max-width: 980px;
@@ -18,16 +29,13 @@ body {
 header .menu {
     display: flex;
     justify-content: space-around;
-    padding: 0;
+    padding: 10px;
     margin:auto;
     background-color: #f2af63;
 }
 
-header .menu  {
-    list-style-type: none;
-}
-
 header .menu  a {
+    font-family: 'Roboto+Slab', monospace;
     text-decoration: none;
     text-transform: uppercase;
     color: var(--main-color);
@@ -37,15 +45,24 @@ header .menu a:hover {
     text-decoration: underline;
 }
 
-header .logo{
-    align-items: center;
+h2 {
+    font-family: 'Roboto+Slab', monospace;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #f2af63
 }
+
+h3 {
+    font-family: 'Roboto+Slab', monospace;
+    font-size: 1.5rem;
+}
+
 
 @media (max-width: 620px) {
     
     header .logo {
         margin: 24px 10px;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
     
     header .menu {
@@ -53,5 +70,14 @@ header .logo{
         flex: 1;
         font-size: 0.80rem;
     }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
 }
 

@@ -6,57 +6,92 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>homeproject</title>
     <link rel="stylesheet" href="css/index.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">-->
+    <!--<link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.min.css">-->
 </head>
 <body>
     <header>
         <div class="menu">
             <a href="#about">About us</a>
             <a href="#top_restaurants">Top restaurants</a>
-            <a href="">Atmosphere of a year</a>
-            <a href="">Contacts</a>
+            <a href="#atmosphere_of_a_year">Atmosphere of a year</a>
+            <a href="#contacts">Contacts</a>
         </div>
         <div class="logo">
             <h1>Restaurant blog</h1>
+        </div>
+        <div class="background">    
             <img src="img/backstage.jpeg" alt="backstage" width="100%">
         </div>
     </header>
     <main>
         <section id="about">
-        <div class="about us">
-            <h2 align="center">About us</h2>
+            <h2>About us</h2>
             <p>We are just group of people, who has just one aim: to tell you about the best restaurants in this beatiful city Lviv.
             We visit different restaurants, like clients. Then we try food there, appreciate the interior inspect clearness and service. After all of that 
             we match our marks and give it to restaurant.</p>
-        </div>
         </section>
         <section id="top_restaurants">
-        <div class="top_restaurants">
-            <h2 align="center">Top three restaurantsof Lviv</h2>
-            <ol>
-                <li><h3>Amadeus</h3> 
-                    <ul>
-                        <li>City center</li>
-                        <li>Vegan, vegeterian, glutenfree meals</li>
-                        <li>France, european, ukrainian menu</li>
-                    </ul>
-                <img src="img/amadeus.jpg" width="50%"></li>
-                <li><h3>The Black Cat</h3>
-                    <ul>
-                        <li>1,5 km from city center</li>
-                        <li>Vegan, vegeterian meals</li>
-                        <li>Breakfast, lunch, dinner</li>
-                    </ul>
-                <img src="img/black_cat.jpg" width="50%"></li>
-                <li><h3>Valentino</h3>
-                    <ul>
-                        <li>City centre</li>
-                        <li>Vegan, vegeterian, glutenfree meals</li>
-                        <li>Summer terrace on the roof</li>
-                    </ul>
-                </li>
-                </section>
-            </ol>
-        </div>
+            <div class="top_restaurants">
+                <h2>Top three restaurantsof Lviv</h2>
+                <ol>
+                    <li><h3>Amadeus</h3> 
+                        <ul>
+                            <li>City center</li>
+                            <li>Vegan, vegeterian, glutenfree meals</li>
+                            <li>France, european, ukrainian menu</li>
+                        </ul>
+                    <img src="img/amadeus.jpg" width="50%"></li>
+                    <li><h3>The Black Cat</h3>
+                        <ul>
+                            <li>1,5 km from city center</li>
+                            <li>Vegan, vegeterian meals</li>
+                            <li>Breakfast, lunch, dinner</li>
+                        </ul>
+                    <img src="img/black_cat.jpg" width="50%"></li>
+                    <li><h3>Valentino</h3>
+                        <ul>
+                            <li>City centre</li>
+                            <li>Vegan, vegeterian, glutenfree meals</li>
+                            <li>Summer terrace on the roof</li>
+                        </ul>
+                    <img src="img/valentino.jpg" tab="valentino" width="50%"></li>
+                </ol>
+            </div>
+        </section>
+        <section id="atmosphere_of_a_year">
+            <h2>Atmosphere of a year</h2>
+            <p>This title goes to one of the most beautiful restaurants in Lviv.
+            Restaurant 36PO</p>
+            <img src="img/36_po.jpg" width=100%>
+        </section>
     </main>
+    <footer>
+        <section id="contacts">
+            <h2>Contacts and feedback</h2>
+            <img src="img/facebook.png" width=8%><a href="https://www.facebook.com/danylo.andrukhiv">Facebook</a>
+            <img src="img/instagram.jpg" width=10%><a href="https://www.instagram.com/danylo_andrukhiv/?hl=uk" >Instagram</a>
+            <div class="form">
+                <form method="POST" action=>
+                <label for="name">Name:</label>
+                <input type="text" id="name"
+                placeholder="name" requaried
+                name="user-name"> 
+                <br>
+                <label>
+                Email: <input type="email" 
+                placeholder="email" required
+                name="user-email">
+                </label>
+                <br>
+                <label for="msg">Message:</label>
+                <textarea id="msg" placeholder="Message" required
+                name="user_message"></textarea>
+            </div>
+            <div class="button">
+              <button type="submit">SEND</button>
+        </div>
+        </section>
+    </footer>
 </body>
 </html>
